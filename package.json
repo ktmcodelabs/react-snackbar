@@ -1,5 +1,5 @@
 {
-  "name": "react-snackbar",
+  "name": "react-snackbar-notification",
   "version": "1.0.0",
   "description": "Snackbar notification component for react js app",
   "main": "dist/index.js",
