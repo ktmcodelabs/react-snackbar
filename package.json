@@ -12,6 +12,10 @@
     "deploy": "gh-pages -d examples/dist",
     "publish-demo": "npm run build && npm run deploy"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktmcodelabs/react-snackbar.git"
+  },
   "keywords": [
     "snackbar",
     "react",
