@@ -1,0 +1,42 @@
+#reactSnackBar.snackBarContainer {
+  width: 300px;
+  max-width: calc(100% - 30px);
+  position: absolute;
+  bottom: 15px;
+  right: 20px; }
+  #reactSnackBar.snackBarContainer .snackBarItem {
+    width: 100%;
+    overflow: hidden;
+    border: solid 2px #ccc;
+    margin-bottom: 5px;
+    display: table;
+    border-radius: 3px;
+    box-shadow: 0 0 5px 3px #cccccc80; }
+    #reactSnackBar.snackBarContainer .snackBarItem .messageBox {
+      overflow: hidden;
+      padding: 10px;
+      display: table-cell; }
+      #reactSnackBar.snackBarContainer .snackBarItem .messageBox p {
+        margin: 0;
+        font-size: 14px; }
+    #reactSnackBar.snackBarContainer .snackBarItem .actionBox {
+      display: table-cell;
+      width: 80px;
+      overflow: hidden;
+      border-left: solid 1px #ccc;
+      vertical-align: middle; }
+      #reactSnackBar.snackBarContainer .snackBarItem .actionBox button {
+        width: 100%;
+        border: 0;
+        background: #fff;
+        margin: 0;
+        height: 36px;
+        padding: 0;
+        line-height: 36px;
+        font-weight: bold;
+        border-bottom: solid 1px #ccc;
+        cursor: pointer; }
+        #reactSnackBar.snackBarContainer .snackBarItem .actionBox button:last-child {
+          border: 0; }
+
+/*# sourceMappingURL=style.css.map */
