@@ -2,6 +2,8 @@
 
 Snackbar like notification component for React Js
 
+**DEMO** [https://ktmcodelabs.github.io/react-snackbar/](https://ktmcodelabs.github.io/react-snackbar/)
+
 # Installation
 ```bash
 npm i react-snackbar-notification
