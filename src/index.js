@@ -66,8 +66,14 @@ class SnackBar extends React.Component {
         if(this.state.options.positionY === 'top'){
             style.top = '15px'
         }
+        else{
+            style.bottom = '15px'
+        }
         if(this.state.options.positionX === 'left'){
             style.left = '20px'
+        }
+        else{
+            style.right = '20px'
         }
 
         return <div id={'reactSnackBar'} className={'snackBarContainer'} style={style}>

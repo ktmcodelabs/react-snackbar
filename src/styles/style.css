@@ -2,8 +2,8 @@
   width: 300px;
   max-width: calc(100% - 30px);
   position: absolute;
-  bottom: 15px;
-  right: 20px; }
+  /*    bottom:15px;
+      right: 20px;*/ }
   #reactSnackBar.snackBarContainer .snackBarItem {
     width: 100%;
     overflow: hidden;
