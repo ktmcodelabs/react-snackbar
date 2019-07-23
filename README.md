@@ -9,6 +9,7 @@ npm i react-snackbar-notification
 
 # Usage
 ```jsx
+import SnackBar from 'react-snackbar-notification'
 
 const notifications = [
     {
