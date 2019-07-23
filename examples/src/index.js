@@ -5,8 +5,6 @@ import uuidv4 from "uuid/v4";
 
 const notifications = [
     {
-        timestamp: new Date().getTime(),
-        key: uuidv4(),
         message: "You have new message.  consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore ",
         action: [
             {
@@ -14,13 +12,11 @@ const notifications = [
             },
             {
                 label: 'View',
-                link: 'http://message'
+                link: 'https://sujanbyanjankar.com.np'
             }
         ]
     },
     {
-        timestamp: new Date().getTime(),
-        key: uuidv4(),
         message: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore sit amet, consetetur sadipscing elitr, sed diam nonumy ei.",
         action: [
             {
