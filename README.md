@@ -54,3 +54,7 @@ const options = {
 | positionX | 'right' | 'left','right' | horizontal position |
 | fadeout | 15 | | auto hide notification item duration in seconds |
 | dummyDisplay | false | boolean | show dummy notifications (for demo only) |
+
+# Dependencies
+- uuid 3.3.2
+
